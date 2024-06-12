@@ -1,11 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Random</title>
-</head>
-<body>
+<%- include('partials/head') %>
+
+    <%- include('partials/navbar') %>
     <h1>Your random number is <%= num %></h1>
     <h2>Your number is <%= num % 2 === 0 ? 'EVEN' : 'ODD' %></h2>
     <% if (num % 5 === 0) { %>
@@ -13,5 +8,4 @@
     <% } else { %>
         <h3>Your number is not divisible by five</h3>
     <% } %>
-</body>
-</html>
+    <%- include('partials/footer.ejs') %>

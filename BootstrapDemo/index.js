@@ -11,7 +11,6 @@ app.set('views', path.join(__dirname, '/views'));
 
 app.get('/', (req, res) => {
     res.render('home')
-    console.dir(req)
 })
 
 app.get('/r/:subreddit', (req, res) => {
