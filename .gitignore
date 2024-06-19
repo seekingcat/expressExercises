@@ -1,2 +1,12 @@
 /node_modules/
 node_modules/
+/BootstrapDemo/node_modules
+BootstrapDemo/node_modules
+/firstApp/node_modules
+firstApp/node_modules
+errorHandling/node_modules
+/errorHandling/node_modules
+middlewareDemo/node_modules
+/middlewareDemo/node_modules
+templateDemo/node_modules
+/templateDemo/node_modules
